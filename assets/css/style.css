@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{
+    font-family: 'Cabin', sans-serif;
+}
+
+/*Configuración de clases*/
+
+.display-6{
+    font-size: 40px;
+}
+
+.display-7{
+    font-size: 20px;
+}
+
+.display-8{
+    font-size: 30px;
+}
+
+.px-6{
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.py-6{
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+}
+
+hr{
+    border-top: 2px solid #000000
+}
+
+.fw-bold{
+    font-weight: 700;
+}
+
+.bg-danger{
+    background-color: #DC3545;
+}
+
+
+/*Navbar*/
+.navbar-brand{
+    font-family: 'Lobster', cursive!important; 
+}
+
+.nav-link{
+    font-size: 16px;
+}
+
+/*Header*/
+
+.imgHeader{
+    width: 100%;
+}
+
+.carousel-indicators{
+    bottom: -55px!important;
+}
+
+.carousel-indicators button{
+    width: 15px!important;
+    height: 15px!important;
+    border-radius: 50%;
+    background-color: #00000079!important;
+}
+
+/*Red Section*/
+.s-text{
+    font-family: 'Lobster', cursive!important; 
+}
+
+.red-button{
+    width: 12rem;
+    padding: 5px;
+}
+
+/*Footer*/
+
+footer p{
+    font-size: 'Lobster', cursive!important;
+}
+
+
+
+
+
+@media (max-width: 767px){
+    header h1{
+        text-align: center;
+    }
+
+ .btn{
+     font-size: 13px;
+     width: 6rem;
+    }
+
+  .red-button{
+      width: 12rem!important;
+      font-size: 20px;
+  }
+
+  .m-edit1{
+      font-size: 35px;
+  }
+}
